@@ -28,11 +28,11 @@ This API, built in Ruby on Rails, has two endpoints. One endpoint receives the U
 
 ## Testing
 
-To test this API, download this repo, and in your terminal navigate to the root folder, and run 'rails s'. Then using Postman or an equivalent API testing environment, type in localhost:3000/api/contents in the request URL field, choose a GET or POST request (keep in mind that if this is your first time testing, start with POST, so when you run a GET request you have something to fetch from the database). For your key, type in 'content[page_url]' and for your value, simply copy paste the url of any website you wish to test.
+To test this API, download this repo, and in your terminal navigate to the root folder, and run 'rails s'. Then using Postman or an equivalent API testing environment, type in 'localhost:3000/api/contents' in the request URL field, choose a GET or POST request (keep in mind that if this is your first time testing, start with POST, so when you run a GET request you have something to fetch from the database). For your key, type in 'content[page_url]' and for your value, simply copy paste the url of any website you wish to test.
 
 ## JSON View
 
-If you wish to see the parsed JSON in your browser, then once you've made a succesful POST request, navigate to 'http://localhost:3000/api/contents' where you will see all the data from the POST requests you've made.
+If you wish to see the parsed JSON in your browser, make sure you still have your rails server running. Once you've made a succesful POST request, navigate to 'http://localhost:3000/api/contents' where you will see all the data from the POST requests you've made, structured by the page url and the id of the content received. 
 
 ```ruby
 @contents.each do |content|
