@@ -1,6 +1,6 @@
 <h1 align="center"> ProjectAPIApp </h1> <br>
 <h4 align="center">
-   ProjectAPIApp (generic name) is an example of a tiny RESTful API to index a page's content. This means it parses a page's content then stores its content in the database. In this case, the content being stored is the content inside all the  h1, h2, h3 and links (anchor) tags.
+   ProjectAPIApp (generic name) is an example of a tiny RESTful API to index a page's content. This means it parses a page's content then stores its content in the database. In this case, the content being stored is the content inside all the  h1, h2, h3 and links (anchor) tags. 
 </h4>
 
 ## Introduction
